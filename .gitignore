@@ -11,6 +11,8 @@ build/
 
 # Models (large binaries — commit only intentionally)
 models/*.pkl
+!models/fusion_model.pkl
+!models/label_encoder.pkl
 models/*.joblib
 
 # Data
